@@ -12,6 +12,7 @@ public class Page<T> {
      * 一页多少条
      */
     @Getter
+    @Setter
     private Integer pageSize;
     /**
      * 数据
