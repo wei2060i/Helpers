@@ -1,8 +1,8 @@
 package com.java8;
 
 /**
- * 继承的类和实现的接口有一样的方法时，类优先
- *支持 default方法  静态方法
+ * 继承的类和实现的接口有一样的方法时，类的逻辑覆盖接口
+ * 支持 default方法  静态方法
  */
 public class NewInterface {
     public static void main(String[] args) {
