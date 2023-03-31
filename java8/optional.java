@@ -9,9 +9,9 @@ public class optional {
     }
 
     /**
-     * Optional.of(T t)创建一个Optional实例
+     * Optional.of(T t) 创建一个Optional实例,T如果是null,报错NullPointerException
      * Optional.empty() 创建空的Optional实例
-     * Optional.ofNullable(T t) T是null创建空的Optional实例，否则创建Optional实例
+     * Optional.ofNullable(T t) T是null创建空的Optional实例,否则创建Optional实例
      * Optional.isPresent()是否包含值
      * Optional.ofNullable(new Employee()).ifPresent(e -> { 不是null TODO });
      * Optional.ofNullable().orElse(T t) 如果调用对象有值直接返回值，否则(创建op时 传入的是null)返回t
